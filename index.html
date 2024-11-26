@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona w Budowie</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons"></script>
+</head>
+
+<body class="bg-[#0d1117] text-white font-sans flex flex-col items-center justify-center h-screen space-y-6 transition-all duration-500 ease-in-out">
+
+    <div class="text-center animate__animated animate__fadeIn animate__delay-1s">
+        <img src="https://i.ibb.co/ZHJg2Xn/logo.png" alt="Logo" class="mx-auto mb-4" />
+    </div>
+
+    <div class="text-red-500 text-6xl mb-4 animate__animated animate__bounceIn">
+        <i data-feather="alert-circle"></i>
+    </div>
+
+    <h1 class="text-4xl font-semibold mb-2 animate__animated animate__fadeIn animate__delay-2s">Houston, mamy problem!</h1>
+    <p class="text-lg mb-6 max-w-lg text-center animate__animated animate__fadeIn animate__delay-3s">Strona jest obecnie w budowie. Wróć za jakiś czas, aby zobaczyć nowe funkcje!</p>
+
+    <div class="flex flex-col space-y-4">
+        <a href="https://discord.gg/pahSvVDvkM" target="_blank" class="border-2 border-[#5865F2] hover:border-[#4752C4] text-[#5865F2] hover:text-[#4752C4] px-6 py-3 rounded-lg shadow-md transform hover:scale-110 transition-all duration-300 ease-in-out flex items-center justify-center space-x-2 animate__animated animate__fadeIn animate__delay-4s">
+            <i data-feather="discord" class="text-xl"></i>
+            <span>Dołącz do nas na Discordzie</span>
+        </a>
+        <a href="https://github.com" target="_blank" class="border-2 border-gray-400 hover:border-[#2e2e2e] text-gray-400 hover:text-[#2e2e2e] px-6 py-3 rounded-lg shadow-md transform hover:scale-110 transition-all duration-300 ease-in-out flex items-center justify-center space-x-2 animate__animated animate__fadeIn animate__delay-5s">
+            <i data-feather="github" class="text-xl"></i>
+            <span>Sprawdź nas na GitHubie</span>
+        </a>
+    </div>
+
+    <div class="mt-8 text-sm text-gray-400 animate__animated animate__fadeIn animate__delay-6s">
+        <p>&copy; 2024 nighthost.pl | Wszystkie prawa zastrzeżone</p>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>
